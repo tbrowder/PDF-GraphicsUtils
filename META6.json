@@ -1,0 +1,25 @@
+{
+  "auth": "zef:tbrowder",
+  "authors": [
+    "Tom Browder"
+  ],
+  "build-depends": [
+  ],
+  "depends": [
+  ],
+  "description": "Provides classes and routines for manipulating PDF page objects.",
+  "license": "Artistic-2.0",
+  "name": "PDF::GraphicsUtils",
+  "perl": "6.d",
+  "provides": {
+    "PDF::GraphicsUtils": "lib/PDF/GraphicsUtils.rakumod"
+  },
+  "resources": [
+  ],
+  "source-url": "",
+  "tags": [
+  ],
+  "test-depends": [
+  ],
+  "version": "0.0.1"
+}
