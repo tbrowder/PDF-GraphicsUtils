@@ -1,3 +1,5 @@
+[![Actions Status](https://github.com/tbrowder/PDF-GraphicsUtils/actions/workflows/linux.yml/badge.svg)](https://github.com/tbrowder/PDF-GraphicsUtils/actions) [![Actions Status](https://github.com/tbrowder/PDF-GraphicsUtils/actions/workflows/macos.yml/badge.svg)](https://github.com/tbrowder/PDF-GraphicsUtils/actions) [![Actions Status](https://github.com/tbrowder/PDF-GraphicsUtils/actions/workflows/windows.yml/badge.svg)](https://github.com/tbrowder/PDF-GraphicsUtils/actions)
+
 NAME
 ====
 
