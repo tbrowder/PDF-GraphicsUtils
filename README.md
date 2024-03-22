@@ -9,14 +9,18 @@ SYNOPSIS
 ========
 
 ```raku
+use PDF::Lite;
 use PDF::GraphicsUtils;
+my PDF:Lite $pdf .= new;
 my $page = $pdf.add-page;
 my $g = Graphics.new: :$page;
 # draw a circle on the page with values in PS points
 my ($x, $y, $radius) = 200, 200, 30;
 $g.circle: :$x, :$y, :$radius; 
-# or with other units of length
-$g.circle: :x<2in>, :y<3in>, :radius<0.5in>;
+# use other units of length for another circle
+$g.circle: :x<2in>, :y<3in>, :radius<0.5in>; 
+$pdf.save-as: "mypdf.pdf";
+# View the pdf file and see two circles
 ```
 
 DESCRIPTION
